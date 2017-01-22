@@ -1,0 +1,32 @@
+{
+    "name": "sanjoydesk/testing-split",
+    "type": "library",
+    "description": "PHP Composer test",
+    "keywords": ["framework", "http", "rest"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sanjoy Dey",
+            "email": "dey.sanjoy0@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\TestingSplit\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.2-dev"
+        }
+    },
+    "suggest": {
+        "league/flysystem": "Required to use the Flysystem local and FTP drivers (~1.0).",
+        "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
+        "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0)."
+    },
+    "minimum-stability": "dev"
+}
