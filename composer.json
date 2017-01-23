@@ -18,11 +18,6 @@
             "MyApp\\TestingSplit\\": ""
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "5.2-dev"
-        }
-    },
     "suggest": {
         "league/flysystem": "Required to use the Flysystem local and FTP drivers (~1.0).",
         "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
